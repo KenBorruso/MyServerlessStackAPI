@@ -1,0 +1,3 @@
+
+
+npx aws-api-gateway-cli-test --username admin@example.com --password Password97! --user-pool-id us-east-1_2UuF7Wybq --app-client-id ollfpjjfc9i98gk0ak4np8634 --cognito-region us-east-1 --identity-pool-id us-east-1:76498859-22a5-4805-b4ca-c17b2ba5fbc1 --invoke-url https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod --api-gateway-region us-east-1 --path-template /notes --method POST --body "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"
